@@ -52,18 +52,33 @@ fpc holamundo.pas
 
 ---
 
+### 🔹 Python
+
+```python
+print('Hola mundo')
+```
+
+#### ▶ Ejecución
+
+```bash
+python3 holamundo.py
+```
+
+---
+
 ## 🧠 Explicación simple
 
-Ambos programas hacen exactamente lo mismo:
+Todos los programas hacen lo mismo:
 
 👉 Mostrar el texto **"Hola mundo"** en la consola.
 
-Pero cada lenguaje tiene su propio estilo:
+Pero cada lenguaje tiene su estilo:
 
-* **C++** usa `std::cout`
-* **Pascal** usa `writeLn`
+* **C++** → más estructurado
+* **Pascal** → más clásico
+* **Python** → directo y minimalista
 
-Es como decir lo mismo en distintos idiomas, pero con acento diferente.
+Es como tres formas distintas de decir lo mismo… uno elegante, uno formal y uno relajado 😎
 
 ---
 
@@ -71,7 +86,7 @@ Es como decir lo mismo en distintos idiomas, pero con acento diferente.
 
 * Aprender la estructura básica de programas
 * Comparar sintaxis entre lenguajes
-* Practicar compilación desde la terminal
+* Practicar compilación y ejecución
 
 ---
 
@@ -81,6 +96,7 @@ Es como decir lo mismo en distintos idiomas, pero con acento diferente.
 .
 ├── holamundo.cpp
 ├── holamundo.pas
+├── holamundo.py
 ├── README.md
 ```
 
@@ -93,5 +109,7 @@ Los archivos compilados (`.o`, ejecutables, etc.) no se incluyen en el repositor
 ---
 
 ## 🚀 Autor
+
+Proyecto creado con fines educativos.
 
 Proyecto creado con fines educativos.
