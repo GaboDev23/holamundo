@@ -66,6 +66,37 @@ python3 holamundo.py
 
 ---
 
+### 🔹 JavaScript
+
+```javascript
+console.log("Hola Mundo");
+```
+
+#### ▶ Ejecución (Node.js)
+
+```bash
+node holamundo.js
+```
+
+#### 🌐 Ejecución en navegador
+
+Archivo `holamundo.html`:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hola Mundo</title>
+</head>
+<body>
+    <script src="holamundo.js"></script>
+</body>
+</html>
+```
+
+---
+
 ## 🧠 Explicación simple
 
 Todos los programas hacen lo mismo:
@@ -74,19 +105,10 @@ Todos los programas hacen lo mismo:
 
 Pero cada lenguaje tiene su estilo:
 
-* **C++** → más estructurado
-* **Pascal** → más clásico
-* **Python** → directo y minimalista
-
-Es como tres formas distintas de decir lo mismo… uno elegante, uno formal y uno relajado 😎
-
----
-
-## 🎯 Objetivo del proyecto
-
-* Aprender la estructura básica de programas
-* Comparar sintaxis entre lenguajes
-* Practicar compilación y ejecución
+* **C++** → estructurado y potente
+* **Pascal** → clásico y académico
+* **Python** → simple y directo
+* **JavaScript** → flexible y omnipresente (navegador + servidor)
 
 ---
 
@@ -97,8 +119,18 @@ Es como tres formas distintas de decir lo mismo… uno elegante, uno formal y un
 ├── holamundo.cpp
 ├── holamundo.pas
 ├── holamundo.py
+├── holamundo.js
+├── holamundo.html
 ├── README.md
 ```
+
+---
+
+## 🎯 Objetivo del proyecto
+
+* Aprender la estructura básica de programas
+* Comparar sintaxis entre lenguajes
+* Practicar compilación y ejecución
 
 ---
 
