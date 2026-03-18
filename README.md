@@ -2,13 +2,13 @@
 
 ## 📌 Descripción
 
-Este proyecto contiene la clásica implementación de **"Hola mundo"** en diferentes lenguajes de programación.
+Este proyecto reúne la clásica implementación de **"Hola mundo"** en múltiples lenguajes de programación.
 
-Es ideal para:
+Ideal para:
 
 * Primeros pasos en programación
-* Verificar instalación de compiladores
 * Comparar sintaxis entre lenguajes
+* Verificar instalaciones de compiladores e intérpretes
 
 ---
 
@@ -97,18 +97,37 @@ Archivo `holamundo.html`:
 
 ---
 
+### 🔹 Rust 🦀
+
+```rust
+fn main() {
+    println!("Hola Mundo");
+}
+```
+
+#### ▶ Crear y ejecutar
+
+```bash
+cargo new holamundo_rust
+cd holamundo_rust
+cargo run
+```
+
+---
+
 ## 🧠 Explicación simple
 
-Todos los programas hacen lo mismo:
+Todos los programas hacen exactamente lo mismo:
 
-👉 Mostrar el texto **"Hola mundo"** en la consola.
+👉 Mostrar el mensaje **"Hola mundo"**
 
-Pero cada lenguaje tiene su estilo:
+Cada lenguaje tiene su estilo:
 
-* **C++** → estructurado y potente
-* **Pascal** → clásico y académico
-* **Python** → simple y directo
-* **JavaScript** → flexible y omnipresente (navegador + servidor)
+* **C++** → clásico y potente
+* **Pascal** → académico y estructurado
+* **Python** → minimalista
+* **JavaScript** → omnipresente
+* **Rust** → seguro y moderno
 
 ---
 
@@ -121,6 +140,7 @@ Pero cada lenguaje tiene su estilo:
 ├── holamundo.py
 ├── holamundo.js
 ├── holamundo.html
+├── holamundo_rust/
 ├── README.md
 ```
 
@@ -128,20 +148,21 @@ Pero cada lenguaje tiene su estilo:
 
 ## 🎯 Objetivo del proyecto
 
-* Aprender la estructura básica de programas
-* Comparar sintaxis entre lenguajes
+* Aprender la base de cada lenguaje
+* Comparar sintaxis
 * Practicar compilación y ejecución
 
 ---
 
 ## ⚠️ Nota
 
-Los archivos compilados (`.o`, ejecutables, etc.) no se incluyen en el repositorio, ya que pueden generarse fácilmente a partir del código fuente.
+No se incluyen archivos compilados (ejecutables, `.o`, etc.), ya que pueden generarse fácilmente a partir del código fuente.
 
 ---
 
 ## 🚀 Autor
 
-Proyecto creado con fines educativos.
+Proyecto con fines educativos.
+
 
 Proyecto creado con fines educativos.
