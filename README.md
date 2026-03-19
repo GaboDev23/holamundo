@@ -78,21 +78,27 @@ console.log("Hola Mundo");
 node holamundo.js
 ```
 
-#### 🌐 Ejecución en navegador
+---
 
-Archivo `holamundo.html`:
+### 🔹 Java ☕
 
-```html
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Hola Mundo</title>
-</head>
-<body>
-    <script src="holamundo.js"></script>
-</body>
-</html>
+```java
+package holamundo;
+
+public class holamundo {
+
+    public static void main(String[] args) {
+        System.out.println("Hola mundo!");
+
+    }
+}
+```
+
+#### ▶ Compilación y ejecución
+
+```bash
+javac holamundo.java
+java holamundo.holamundo
 ```
 
 ---
@@ -124,10 +130,11 @@ Todos los programas hacen exactamente lo mismo:
 Cada lenguaje tiene su estilo:
 
 * **C++** → clásico y potente
-* **Pascal** → académico y estructurado
-* **Python** → minimalista
-* **JavaScript** → omnipresente
-* **Rust** → seguro y moderno
+* **Pascal** → académico
+* **Python** → simple
+* **JavaScript** → flexible
+* **Java** → estructurado
+* **Rust** → moderno y seguro
 
 ---
 
@@ -139,7 +146,7 @@ Cada lenguaje tiene su estilo:
 ├── holamundo.pas
 ├── holamundo.py
 ├── holamundo.js
-├── holamundo.html
+├── holamundo.java
 ├── holamundo_rust/
 ├── README.md
 ```
@@ -163,6 +170,3 @@ No se incluyen archivos compilados (ejecutables, `.o`, etc.), ya que pueden gene
 ## 🚀 Autor
 
 Proyecto con fines educativos.
-
-
-Proyecto creado con fines educativos.
