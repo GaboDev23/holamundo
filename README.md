@@ -121,6 +121,22 @@ cargo run
 
 ---
 
+### 🔹 C# 🟣
+
+```csharp
+Console.WriteLine("Hola mundo");
+```
+
+#### ▶ Ejecución
+
+```bash
+dotnet new console -n HolaMundoCS
+cd HolaMundoCS
+dotnet run
+```
+
+---
+
 ## 🧠 Explicación simple
 
 Todos los programas hacen exactamente lo mismo:
@@ -148,6 +164,7 @@ Cada lenguaje tiene su estilo:
 ├── holamundo.js
 ├── holamundo.java
 ├── holamundo_rust/
+├── HolaMundoCS/
 ├── README.md
 ```
 
